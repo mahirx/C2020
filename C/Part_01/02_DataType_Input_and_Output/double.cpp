@@ -22,5 +22,18 @@ int main(int argc, char const *argv[])
 	printf("%lf\n", d);
 
 
+	double xd, yd, sumd;
+	scanf("%lf %lf", &xd, &yd);
+	sumd = xd + yd;
+
+
+	printf("%lf\n", xd);
+	printf("%lf\n", yd);
+
+
+	printf("%lf\n", sumd);
+	printf("%0.3lf\n", sumd);
+
+
 	return 0;
 }
