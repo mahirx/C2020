@@ -5,11 +5,17 @@ int main(int argc, char const *argv[])
 {
 	char c;
 
-	c = gets();
+	c = getchar();
 
-	if ()
+	if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
 	{
-		/* code */
+		printf("%c is vowel\n", c);
+	}
+
+
+	
+	else{
+		printf("%c is not a vowel\n", c);
 	}
 
 	return 0;
